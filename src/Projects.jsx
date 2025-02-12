@@ -8,7 +8,7 @@ const Projects = (props) => {
         <div className="h-[1px] left-1/4 right-1/2 bg-[#1788ae] absolute top-1/2 hidden sm:block"></div>
         <div className="w-4 h-4 rounded-full border-[3px] border-[#459bd5] absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 hidden sm:block"></div>
         <a
-          href="https://6689f8b33756a85716160f9e--leafy-arithmetic-58a4e9.netlify.app/"
+          href={props.l}
           className="flex w-full relative justify-center sm:justify-start"
           >
           <div className="flex flex-col items-center relative group sm:hover:scale-105 ease-in-out duration-200">
@@ -40,11 +40,11 @@ const Projects = (props) => {
         </a>
 
         <div className="w-full">
-          <h3 className="text-[#000000] font-bold text-2xl md:text-4xl">
+          <h3 className="text-[#000000] font-bold text-2xl md:text-4xl pb-3">
             {props.name}
           </h3>
           <span className="text-[#03070a] text-base md:text-lg">
-            (College website)
+            {/* (College website) */}
           </span>
           <p className="text-justify text-sm text-[#000000] md:text-base mt-2">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
